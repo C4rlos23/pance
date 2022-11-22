@@ -1,0 +1,15 @@
+.cardCentral {
+    margin-top: 60px;
+    width: 430px;
+    height: 600px;
+    background-color: rgba(217, 217, 217, 0.6);
+    border-radius: 78px;
+    margin-bottom: 10px;
+
+}
+.centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

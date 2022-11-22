@@ -1,0 +1,149 @@
+.estiloBarra {
+    max-width: 100vw;
+    max-height: 100vh;
+    position: fixed;
+    width: 22%;
+    height: 100%;
+    left: -151px;
+    top: 20px;
+    margin: 0;
+    background: #D96C06;
+    box-shadow: 8px -6px 16px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 104px;
+}
+
+#perfil {
+    position: absolute;
+    left: 110px;
+    margin-top: 12%;
+    width: 55%;
+    height: 12%;
+    background: #FFA551;
+    opacity: 0.45;
+    border-radius: 96.5px;
+    border: 0;
+    color: white;
+    font-family: Joynoted;
+    font-weight: 500;
+}
+
+
+#tamañoIc {
+    width: 20%;
+    margin-left: 40%;
+    position: absolute;
+}
+
+#informacion1 {
+    font-family: Joynoted;
+    position: absolute;
+    height: 12%;
+    width: 55%;
+    margin-top: 40%;
+    left: 114px;
+    background: rgba(255, 165, 81, 0.4);
+    opacity: 0.45;
+    border-radius: 96.5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#informacion2 {
+    font-family: Joynoted;
+    position: absolute;
+    height: 12%;
+    width: 55%;
+    margin-top: 68%;
+    left: 114px;
+    background: rgba(255, 165, 81, 0.4);
+    opacity: 0.45;
+    border-radius: 96.5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#informacion3 {
+    font-family: Joynoted;
+    position: absolute;
+    height: 12%;
+    width: 55%;
+    margin-top: 96%;
+    left: 114px;
+    background: rgba(255, 165, 81, 0.4);
+    opacity: 0.45;
+    border-radius: 96.5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#informacion4 {
+    font-family: Joynoted;
+    position: absolute;
+    height: 12%;
+    width: 55%;
+    margin-top: 124%;
+    left: 114px;
+    background: rgba(255, 165, 81, 0.4);
+    opacity: 0.45;
+    border-radius: 96.5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#tamañoIconos {
+    width: 25%;
+    margin-left: 15%;
+}
+
+#cerrar {
+    position: absolute;
+    left: 110px;
+    bottom: 6%;
+    width: 55%;
+    height: 12%;
+    background: #FFA551;
+    opacity: 0.45;
+    border-radius: 96.5px;
+    border: 0;
+    color: white;
+    font-family: Joynoted;
+    font-weight: 500;
+}
+
+#iconoCer {
+    margin-top: 4%;
+    width: 20%;
+    margin-left: 35%;
+    position: absolute;
+}
+
+#barraAtras {
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 60%;
+    top: 25%;
+
+    background: white;
+    opacity: 0.45;
+    border-radius: 96.5px;
+}
+
+#cerrar:hover {
+    background-color: darkslategray;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+    #cerrar {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}

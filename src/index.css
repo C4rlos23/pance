@@ -1,3 +1,24 @@
+@font-face {
+  font-family: HomeandWork;
+  src: url(./fonts/HomeAndWork.otf);
+}
+@font-face {
+  font-family: Joynoted;
+  src: url(./fonts/JoynotedDemo.ttf);
+}
+
+@font-face {
+  font-family: PleaseWrite;
+  src: url(./fonts/Pleasewritemeasong.ttf);
+}
+@font-face {
+  font-family: Simplicity;
+  src: url(./fonts/Simplicity.otf);
+}
+@font-face {
+  font-family: Letters;
+  src: url(./fonts/LettersforLearners.ttf);
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
