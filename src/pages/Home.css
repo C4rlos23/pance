@@ -88,7 +88,7 @@ h1 {
     height: 70%;
     left: 5%;
     top: 124px;
-    mix-blend-mode: overlay;
+    mix-blend-mode: darken;
     border: 7px solid #000000;
     backdrop-filter: blur(2px);
 
@@ -114,7 +114,7 @@ h1 {
     height: 500px;
     left: -200px;
     top: 215px;
-    opacity: 50%;
+    opacity: 80%;
     background: #BDBF09;
     mix-blend-mode: normal;
     border-radius: 50%;
@@ -127,7 +127,7 @@ h1 {
     left: -250px;
     top: 240px;
 
-    opacity: 40%;
+    opacity: 50%;
     background: #BDBF09;
     mix-blend-mode: normal;
     border-radius: 50%;
@@ -150,6 +150,7 @@ h2 {
     height: 117px;
     left: 200px;
     top: 220px;
+    
 
     font-family: Joynoted;
     font-weight: 700;
