@@ -19,12 +19,88 @@ body{
 
 
 
-.cardCentral {
+#cardCentral {
     margin-top: 60px;
     width: 430px;
     height: 600px;
     background-color: rgba(217, 217, 217, 0.6);
     border-radius: 78px;
     margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". . ."
+    ". . form . ."
+    ". . ."
+    ". . form . ."
+    ". . .";
     
+}
+
+.inputs {
+    grid-area: form;
+}
+
+#boton {
+    width: 70%;
+    border: 0;
+    background: #D96C06;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 37.5px;
+    font-family: Joynoted;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+#inputf {
+    border: 0;
+    width: 80%;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 55px;
+    font-family: Letters;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#labelf{
+    font-family: Joynoted;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#labeltyc{
+    font-family: Letters;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.h7 {
+    position: absolute;
+    width: 509px;
+    height: 75px;
+    left: 591px;
+    top: 244px;
+
+font-family: Joynoted;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
 }

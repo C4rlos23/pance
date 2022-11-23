@@ -8,6 +8,7 @@ export const OpcionesRegistro = () => {
             <NavBarD />
             <div id='container'>
                 <div id='cardCentral'>
+                <title className='h8'> Registro </title>
                     <form id='centrado'>
                         <div className='inputs'>
                             <label htmlFor="nombres" id='labelf'>
