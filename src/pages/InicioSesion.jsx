@@ -9,11 +9,11 @@ export const InicioSesion = () => {
             <div id='container'>
                 <div className='cardCentral' id='centrado'>
                     <form action="">
-                        <label htmlFor=""> Correo </label> <br />
-                        <input type="email" name="" id="" /> <br />
-                        <label htmlFor=""> Contraseña </label> <br />
-                        <input type="password" name="" id="" /> <br />
-                        <Link to="home"><button type="submit"> Iniciar Sesion </button> <br /></Link>
+                        <label htmlFor="correo" id='labelf'> Correo </label> <br />
+                        <input type="email" name="correo" id="inputf" /> <br />
+                        <label htmlFor="contrasena" id='labelf'> Contraseña </label> <br />
+                        <input type="password" name="contrasena" id="inputf" /> <br />
+                        <Link to="/home"><button type="submit"> Iniciar Sesion </button> <br /></Link>
                     </form>
                 </div>
             </div>
