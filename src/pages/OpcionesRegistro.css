@@ -83,3 +83,24 @@ body {
     text-transform: uppercase;
     color: black;
 }
+
+.h8 {
+    position: absolute;
+    width: 509px;
+    height: 75px;
+    left: 616px;
+    top: 171px;
+
+font-family: Joynoted;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+}
