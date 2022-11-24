@@ -1,6 +1,6 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
-import { Home } from "./Home";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./Home"
 import { Registro } from "./Registro";
 import { PaginaPrincipal } from "./PaginaPrincipal";
 import { OpcionesRegistro } from "./OpcionesRegistro";
