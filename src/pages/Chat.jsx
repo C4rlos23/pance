@@ -3,6 +3,7 @@ import './Chat.css'
 import io from 'socket.io-client'
 import {useState, useEffect} from 'react'
 import axios from 'axios'
+import { BarraV } from '../share/BarraV'
 //Conexión para escuchar y enviar eventos
 const socket = io('http://localhost:4000')
 
@@ -84,12 +85,16 @@ export const Chat = () => {
   }
 
   return (
-    <div className="App">
+    <>
+    <BarraV />
+    
+    <div className="chat">
+        
       <div className="container mt-3">
 
-              <div className="card shadow border-0">
+              <div className="card shadow border-0" id='altura'>
               <div className="card-body">
-                <h5 className="text-center mb-3">CHAT</h5>
+                <h5 className="text-center mb-3"> Chat </h5>
 
                 {/* nickname */}
 
@@ -120,7 +125,7 @@ export const Chat = () => {
                   <div key={index} className={`d-flex p-3 ${message.from === "Yo" ? "justify-content-end" : "justify-content-start"}`}>
                     <div className={`card mb-3 shadow border-1 ${message.from === "Yo" ? "bg-success bg-opacity-25" : "bg-light"}`}>
                       <div className="card-body">
-                        <small className="">{message.from}: {message.body}</small>
+                        <small className="" >{message.from}: {message.body}</small>
                       </div>
                     </div>
                   </div>
@@ -144,5 +149,7 @@ export const Chat = () => {
             </div>
       </div>
     </div>
+    </>
+    
   );
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { NavBarD } from "../share/NavBarD"
 import './OpcionesRegistro.css'
 
@@ -17,7 +18,7 @@ export const OpcionesRegistro = () => {
                         <input type="email" name="correo" id="inputf" required /> <br />
                         <label htmlFor="contrasena" id='labelf'> Contrasena </label> 
                         <input type="password" name="contrasena" id="inputf" required/> <br /> <br />
-                        <button className="btn btn-primary" id='boton' type="submit"> Registrar </button> <br />
+                        <Link to="home"><button className="btn btn-primary" id='boton' type="submit"> Registrar </button></Link> <br />
                     </form>
                 </div>
             </div>

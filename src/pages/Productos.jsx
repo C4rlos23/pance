@@ -1,4 +1,5 @@
 import { BarraV } from '../share/BarraV'
+import { Link } from 'react-router-dom'
 import './Productos.css'
 import hamburguer from '../img/hamburguer.png'
 import { BotonFlotante } from '../share/BotonFlotante'
@@ -50,7 +51,7 @@ export const Productos = () => {
                 <h1 className='mas'> + </h1>
                 <h2 className='menos'> - </h2>
                 <h3 className='numero'> 2 </h3>
-                <h6 className='agregar'> Agregar a Canasta </h6>
+                <Link to='/compra'><h6 className='agregar'> Agregar a Canasta </h6></Link>
             </div>
             <div className='cardIngred'>
                 <h4 className='ingre'> Ingredientes </h4>

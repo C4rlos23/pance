@@ -2,25 +2,31 @@ body {
     background-color: #69D1C5;
 }
   
-  .Chat {
+  .chat {
     text-align: center;
+    
   }
   
-  .Chat-link {
+  .chat-link {
     color: #61dafb;
   }
   
   .container {
-    width: 60%;
+    align-items: center;
+    width: 100%;
   }
   
   #content-chat{
-    height: 550px;
+    height: 100%;
     overflow-y: scroll;
   }
   
   #nickname{
-    width: 12em;
+    width: 8em;
+  }
+
+  #altura{
+    height: 180px;
   }
   
   @media only screen and (max-width: 1000px) {

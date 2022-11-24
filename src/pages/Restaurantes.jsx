@@ -26,7 +26,7 @@ export const Restaurantes = () => {
                     <h4>Mc Donald's</h4>
                     <hr />
                     <p>Mc Donald's es una franquicia muy conocida con especialidad en hamburguesas y comida rapida.</p>
-                    <Link to='/compraproductos'><button className='animado'> Ver Productos </button></Link>  
+                    <Link to='/Productos'><button className='animado'> Ver Productos </button></Link>  
                 </div>
 
                 <div className="card">
