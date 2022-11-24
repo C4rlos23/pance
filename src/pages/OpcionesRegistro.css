@@ -29,13 +29,13 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: 
-    ". . ."
-    ". . form . ."
-    ". . ."
-    ". . form . ."
-    ". . .";
-    
+    grid-template-areas:
+        ". . ."
+        ". . form . ."
+        ". . ."
+        ". . form . ."
+        ". . .";
+
 }
 
 .inputs {
@@ -53,7 +53,7 @@ body {
     font-weight: 700;
     color: black;
     text-transform: uppercase;
-    
+
 }
 
 #inputf {
@@ -68,7 +68,7 @@ body {
     font-weight: 400;
 }
 
-#labelf{
+#labelf {
     font-family: Joynoted;
     font-weight: 400;
     font-size: 20px;
@@ -76,7 +76,7 @@ body {
     color: black;
 }
 
-#labeltyc{
+#labeltyc {
     font-family: Letters;
     font-weight: 400;
     font-size: 20px;
@@ -85,22 +85,23 @@ body {
 }
 
 .h8 {
+
+    
     position: absolute;
     width: 509px;
     height: 75px;
-    left: 875px;
-    top: 195px;
+    left: 46%;
+    top: 10%;
 
-font-family: Joynoted;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 50px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
+    font-family: Joynoted;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    
 
-color: #000000;
+    color: #000000;
 
 }
