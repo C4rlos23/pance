@@ -7,7 +7,7 @@ import axios from 'axios'
 const socket = io('http://localhost:4000')
 
 
-function Chat() {
+export const Chat = () => {
 
   const [nickname, setNickname] = useState('')
   const [disabled, setDisabled] = useState(false)
