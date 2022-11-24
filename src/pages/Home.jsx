@@ -12,7 +12,7 @@ export const Home = () => {
         <>
             <h1> Pance Food </h1>
             <Buscador />
-            <Link to="opcionesregistro"><button className='registrar'> Registrarse </button></Link>
+            <Link to="registro"><button className='registrar'> Registrarse </button></Link>
             <Link to="iniciosesion"><button className='inicioSesion'> Iniciar Sesion </button></Link>
             <BotonFlotante />
             <img id='fondoI' src={imagen} alt='fondo' ></img>
