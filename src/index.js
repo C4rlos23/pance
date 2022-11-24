@@ -4,16 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
-import { Productos } from './pages/Productos';
-import { Chat } from './pages/Chat';
-import { Perfil} from './pages/Perfil';
-import { Compra } from './pages/Compra';
-
+import { MainApp } from './pages/MainApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter basename='/'>
-    <Productos/>
+    <MainApp />
   </BrowserRouter>
 );
 
