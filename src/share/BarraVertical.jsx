@@ -18,7 +18,7 @@ export const BarraVertical = () => {
                 </button> <br /></Link>
                 <Link to="/chat"><button id='informacion1'> <img id='tamañoIconos' src={soporte} alt='Soporte' ></img>
                     Soporte </button></Link>
-                <Link to="/carrito"><button id='informacion2'> <img id='tamañoIconos' src={pedidos} alt='pedidos' ></img>
+                <Link to="/compra"><button id='informacion2'> <img id='tamañoIconos' src={pedidos} alt='pedidos' ></img>
                     Pedidos </button></Link>
                 <Link to=""><button id='informacion3' > <img id='tamañoIconos' src={direcciones} alt='Direcciones'></img>
                     Direccion </button></Link>

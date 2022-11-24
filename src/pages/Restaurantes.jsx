@@ -8,6 +8,7 @@ import subway from '../img/subway.jpg'
 import presto from '../img/presto.png'
 import kfc from '../img/kfc.jpg'
 import { BotonFlotante } from '../share/BotonFlotante'
+import { Link } from 'react-router-dom'
 
 
 export const Restaurantes = () => {
@@ -25,7 +26,7 @@ export const Restaurantes = () => {
                     <h4>Mc Donald's</h4>
                     <hr />
                     <p>Mc Donald's es una franquicia muy conocida con especialidad en hamburguesas y comida rapida.</p>
-                    <button className='animado'> Ver Productos </button>
+                    <Link to='/compraproductos'><button className='animado'> Ver Productos </button></Link>  
                 </div>
 
                 <div className="card">

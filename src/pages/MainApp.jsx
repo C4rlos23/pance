@@ -12,6 +12,7 @@ import { Canasta } from "./Canasta";
 import { Siguetu } from "./Siguetu"
 import { Chat } from "./Chat";
 import { Locales } from "./Locales";
+import { Productos } from "./Productos";
 
 
 
@@ -30,6 +31,7 @@ export const MainApp = () => {
             <Route path="/siguetupedido" element={ <Siguetu />}></Route>
             <Route path="/chat" element={ <Chat /> }></Route>
             <Route path="/registrolocal" element={ <Locales /> }></Route>
+            <Route path="/compraproductos" element={ <Productos/> }></Route>
         </Routes>        
     )
 }
